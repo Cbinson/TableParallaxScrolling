@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6E700F41EE0ED1B00EC9592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E700F31EE0ED1B00EC9592 /* main.m */; };
+		C6E700F71EE0ED1B00EC9592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E700F61EE0ED1B00EC9592 /* AppDelegate.m */; };
+		C6E700FA1EE0ED1B00EC9592 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E700F91EE0ED1B00EC9592 /* ViewController.m */; };
+		C6E700FD1EE0ED1B00EC9592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E700FB1EE0ED1B00EC9592 /* Main.storyboard */; };
+		C6E701001EE0ED1B00EC9592 /* TableParallaxis_objc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6E700FE1EE0ED1B00EC9592 /* TableParallaxis_objc.xcdatamodeld */; };
+		C6E701021EE0ED1B00EC9592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E701011EE0ED1B00EC9592 /* Assets.xcassets */; };
+		C6E701051EE0ED1B00EC9592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E701031EE0ED1B00EC9592 /* LaunchScreen.storyboard */; };
+		C6E7010D1EE0F00D00EC9592 /* ParallaxisCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6E7010C1EE0F00D00EC9592 /* ParallaxisCell.xib */; };
+		C6E701101EE0F08C00EC9592 /* ParallaxisCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E7010F1EE0F08C00EC9592 /* ParallaxisCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6E700EF1EE0ED1B00EC9592 /* TableParallaxis_objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableParallaxis_objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E700F31EE0ED1B00EC9592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6E700F51EE0ED1B00EC9592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6E700F61EE0ED1B00EC9592 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6E700F81EE0ED1B00EC9592 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6E700F91EE0ED1B00EC9592 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6E700FC1EE0ED1B00EC9592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6E700FF1EE0ED1B00EC9592 /* TableParallaxis_objc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableParallaxis_objc.xcdatamodel; sourceTree = "<group>"; };
+		C6E701011EE0ED1B00EC9592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6E701041EE0ED1B00EC9592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6E701061EE0ED1B00EC9592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6E7010C1EE0F00D00EC9592 /* ParallaxisCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParallaxisCell.xib; sourceTree = "<group>"; };
+		C6E7010E1EE0F08C00EC9592 /* ParallaxisCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxisCell.h; sourceTree = "<group>"; };
+		C6E7010F1EE0F08C00EC9592 /* ParallaxisCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxisCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6E700EC1EE0ED1B00EC9592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6E700E61EE0ED1A00EC9592 = {
+			isa = PBXGroup;
+			children = (
+				C6E700F11EE0ED1B00EC9592 /* TableParallaxis_objc */,
+				C6E700F01EE0ED1B00EC9592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6E700F01EE0ED1B00EC9592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6E700EF1EE0ED1B00EC9592 /* TableParallaxis_objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6E700F11EE0ED1B00EC9592 /* TableParallaxis_objc */ = {
+			isa = PBXGroup;
+			children = (
+				C6E700F51EE0ED1B00EC9592 /* AppDelegate.h */,
+				C6E700F61EE0ED1B00EC9592 /* AppDelegate.m */,
+				C6E700F81EE0ED1B00EC9592 /* ViewController.h */,
+				C6E700F91EE0ED1B00EC9592 /* ViewController.m */,
+				C6E700FB1EE0ED1B00EC9592 /* Main.storyboard */,
+				C6E701011EE0ED1B00EC9592 /* Assets.xcassets */,
+				C6E701031EE0ED1B00EC9592 /* LaunchScreen.storyboard */,
+				C6E701061EE0ED1B00EC9592 /* Info.plist */,
+				C6E700FE1EE0ED1B00EC9592 /* TableParallaxis_objc.xcdatamodeld */,
+				C6E700F21EE0ED1B00EC9592 /* Supporting Files */,
+				C6E7010C1EE0F00D00EC9592 /* ParallaxisCell.xib */,
+				C6E7010E1EE0F08C00EC9592 /* ParallaxisCell.h */,
+				C6E7010F1EE0F08C00EC9592 /* ParallaxisCell.m */,
+			);
+			path = TableParallaxis_objc;
+			sourceTree = "<group>";
+		};
+		C6E700F21EE0ED1B00EC9592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6E700F31EE0ED1B00EC9592 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6E700EE1EE0ED1B00EC9592 /* TableParallaxis_objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E701091EE0ED1B00EC9592 /* Build configuration list for PBXNativeTarget "TableParallaxis_objc" */;
+			buildPhases = (
+				C6E700EB1EE0ED1B00EC9592 /* Sources */,
+				C6E700EC1EE0ED1B00EC9592 /* Frameworks */,
+				C6E700ED1EE0ED1B00EC9592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableParallaxis_objc;
+			productName = TableParallaxis_objc;
+			productReference = C6E700EF1EE0ED1B00EC9592 /* TableParallaxis_objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6E700E71EE0ED1B00EC9592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tw.com.binson;
+				TargetAttributes = {
+					C6E700EE1EE0ED1B00EC9592 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = TVFFD9C8WQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C6E700EA1EE0ED1B00EC9592 /* Build configuration list for PBXProject "TableParallaxis_objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6E700E61EE0ED1A00EC9592;
+			productRefGroup = C6E700F01EE0ED1B00EC9592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6E700EE1EE0ED1B00EC9592 /* TableParallaxis_objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6E700ED1EE0ED1B00EC9592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E7010D1EE0F00D00EC9592 /* ParallaxisCell.xib in Resources */,
+				C6E701051EE0ED1B00EC9592 /* LaunchScreen.storyboard in Resources */,
+				C6E701021EE0ED1B00EC9592 /* Assets.xcassets in Resources */,
+				C6E700FD1EE0ED1B00EC9592 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6E700EB1EE0ED1B00EC9592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E700FA1EE0ED1B00EC9592 /* ViewController.m in Sources */,
+				C6E701001EE0ED1B00EC9592 /* TableParallaxis_objc.xcdatamodeld in Sources */,
+				C6E700F71EE0ED1B00EC9592 /* AppDelegate.m in Sources */,
+				C6E701101EE0F08C00EC9592 /* ParallaxisCell.m in Sources */,
+				C6E700F41EE0ED1B00EC9592 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6E700FB1EE0ED1B00EC9592 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6E700FC1EE0ED1B00EC9592 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6E701031EE0ED1B00EC9592 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6E701041EE0ED1B00EC9592 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6E701071EE0ED1B00EC9592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6E701081EE0ED1B00EC9592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6E7010A1EE0ED1B00EC9592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TVFFD9C8WQ;
+				INFOPLIST_FILE = TableParallaxis_objc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.binson.TableParallaxis-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6E7010B1EE0ED1B00EC9592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TVFFD9C8WQ;
+				INFOPLIST_FILE = TableParallaxis_objc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.binson.TableParallaxis-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6E700EA1EE0ED1B00EC9592 /* Build configuration list for PBXProject "TableParallaxis_objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E701071EE0ED1B00EC9592 /* Debug */,
+				C6E701081EE0ED1B00EC9592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E701091EE0ED1B00EC9592 /* Build configuration list for PBXNativeTarget "TableParallaxis_objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E7010A1EE0ED1B00EC9592 /* Debug */,
+				C6E7010B1EE0ED1B00EC9592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6E700FE1EE0ED1B00EC9592 /* TableParallaxis_objc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6E700FF1EE0ED1B00EC9592 /* TableParallaxis_objc.xcdatamodel */,
+			);
+			currentVersion = C6E700FF1EE0ED1B00EC9592 /* TableParallaxis_objc.xcdatamodel */;
+			path = TableParallaxis_objc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C6E700E71EE0ED1B00EC9592 /* Project object */;
+}
